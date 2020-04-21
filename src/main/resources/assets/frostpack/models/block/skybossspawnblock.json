@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "frostpack:blocks/pinkishred",
+    "up": "frostpack:blocks/pinkishred",
+    "north": "frostpack:blocks/pinkishred",
+    "east": "frostpack:blocks/pinkishred",
+    "south": "frostpack:blocks/pinkishred",
+    "west": "frostpack:blocks/pinkishred",
+    "particle": "frostpack:blocks/pinkishred"
+  }
+}

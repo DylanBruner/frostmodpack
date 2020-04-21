@@ -1,0 +1,45 @@
+{
+  "_fv": 6,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Cloud"
+      },
+      {
+        "value": "CUSTOM:Cloud"
+      },
+      {
+        "value": "CUSTOM:Cloud"
+      },
+      {
+        "value": "CUSTOM:Cloud"
+      },
+      {
+        "value": "CUSTOM:WhiteDiamonditem"
+      },
+      {
+        "value": "CUSTOM:Cloud"
+      },
+      {
+        "value": "CUSTOM:Cloud"
+      },
+      {
+        "value": "CUSTOM:Cloud"
+      },
+      {
+        "value": "CUSTOM:Cloud"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SkyBossSpawnBlock"
+    },
+    "name": "skybossspawnblockmake",
+    "namespace": "mod"
+  }
+}

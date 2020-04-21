@@ -4,6 +4,7 @@ import net.minecraft.world.server.ServerWorld;
 import net.minecraft.world.World;
 import net.minecraft.entity.effect.LightningBoltEntity;
 
+import net.mcreator.frostpack.FrostPackVariables;
 import net.mcreator.frostpack.FrostPackElements;
 
 @FrostPackElements.ModElement.Tag
@@ -33,6 +34,7 @@ public class SkyBossEntityDiesProcedure extends FrostPackElements.ModElement {
 		int y = (int) dependencies.get("y");
 		int z = (int) dependencies.get("z");
 		World world = (World) dependencies.get("world");
+		FrostPackVariables.skybossspawnedglobal = (double) 0;
 		for (int index0 = 0; index0 < (int) (6); index0++) {
 			if (world instanceof ServerWorld)
 				((ServerWorld) world).addLightningBolt(new LightningBoltEntity(world, (int) x, (int) y, (int) z, false));

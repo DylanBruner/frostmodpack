@@ -2,12 +2,12 @@
   "_fv": 6,
   "_type": "block",
   "definition": {
-    "texture": "whitediamond",
-    "textureTop": "whitediamond",
-    "textureLeft": "whitediamond",
-    "textureFront": "whitediamond",
-    "textureRight": "whitediamond",
-    "textureBack": "whitediamond",
+    "texture": "pinkishred",
+    "textureTop": "pinkishred",
+    "textureLeft": "pinkishred",
+    "textureFront": "pinkishred",
+    "textureRight": "pinkishred",
+    "textureBack": "pinkishred",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -20,21 +20,21 @@
     "My": 1.0,
     "Mz": 1.0,
     "faceShape": "SOLID",
-    "name": "White Diamond Ore",
+    "name": "Sky Boss Spawn Block",
     "specialInfo": [],
-    "hardness": 1.0,
+    "hardness": 3.0,
     "resistance": 10.0,
     "hasGravity": false,
     "creativeTab": {
       "value": "CUSTOM:ModTab"
     },
-    "destroyTool": "pickaxe",
-    "affectedBySilkTouch": true,
+    "destroyTool": "axe",
+    "affectedBySilkTouch": false,
     "customDrop": {
       "value": ""
     },
     "dropAmount": 1,
-    "isBeaconBase": true,
+    "isBeaconBase": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canProvidePower": false,
@@ -45,7 +45,7 @@
     "tickRate": 10,
     "tickRandomly": false,
     "isReplaceable": false,
-    "colorOnMap": "CYAN",
+    "colorOnMap": "DEFAULT",
     "creativePickItem": {
       "value": ""
     },
@@ -77,19 +77,15 @@
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],
-    "spawnWorldTypes": [
-      "Surface",
-      "CUSTOM:SkyDimension"
-    ],
+    "onDestroyedByPlayer": {
+      "name": "SkyBossSpawnBlockBlockDestroyedByPlayer"
+    },
+    "spawnWorldTypes": [],
     "restrictionBiomes": [],
-    "blocksToReplace": [
-      {
-        "value": "Blocks.STONE#0"
-      }
-    ],
-    "frequencyPerChunks": 5,
-    "frequencyOnChunk": 6,
-    "minGenerateHeight": 25,
-    "maxGenerateHeight": 50
+    "blocksToReplace": [],
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 64
   }
 }

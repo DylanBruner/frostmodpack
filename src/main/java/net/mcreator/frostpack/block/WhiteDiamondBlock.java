@@ -96,7 +96,7 @@ public class WhiteDiamondBlock extends FrostPackElements.ModElement {
 				if (blockAt.getBlock() == Blocks.STONE.getDefaultState().getBlock())
 					blockCriteria = true;
 				return blockCriteria;
-			}), block.getDefaultState(), 5), Placement.COUNT_RANGE, new CountRangeConfig(3, 25, 25, 50)));
+			}), block.getDefaultState(), 6), Placement.COUNT_RANGE, new CountRangeConfig(5, 25, 25, 50)));
 		}
 	}
 }

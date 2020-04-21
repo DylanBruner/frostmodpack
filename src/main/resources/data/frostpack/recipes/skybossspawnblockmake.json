@@ -1,0 +1,42 @@
+{
+  "group": "frostpack",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "frostpack:cloud"
+    },
+    "1": {
+      "item": "frostpack:cloud"
+    },
+    "2": {
+      "item": "frostpack:cloud"
+    },
+    "3": {
+      "item": "frostpack:cloud"
+    },
+    "4": {
+      "item": "frostpack:whitediamonditem"
+    },
+    "5": {
+      "item": "frostpack:cloud"
+    },
+    "6": {
+      "item": "frostpack:cloud"
+    },
+    "7": {
+      "item": "frostpack:cloud"
+    },
+    "8": {
+      "item": "frostpack:cloud"
+    }
+  },
+  "result": {
+    "item": "frostpack:skybossspawnblock",
+    "count": 1
+  }
+}

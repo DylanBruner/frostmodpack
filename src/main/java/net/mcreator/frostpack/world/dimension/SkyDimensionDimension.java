@@ -14,7 +14,6 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.common.ObfuscationReflectionHelper;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.world.RegisterDimensionsEvent;
-import net.minecraftforge.event.entity.player.PlayerEvent;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.common.ModDimension;
 import net.minecraftforge.common.MinecraftForge;
@@ -75,7 +74,6 @@ import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.frostpack.procedures.SkyDimensionPlayerEntersDimensionProcedure;
 import net.mcreator.frostpack.item.SkyDimensionItem;
 import net.mcreator.frostpack.block.VaporBlock;
 import net.mcreator.frostpack.block.SkyPortalFrameBlock;
@@ -736,7 +734,7 @@ public class SkyDimensionDimension extends FrostPackElements.ModElement {
 		@OnlyIn(Dist.CLIENT)
 		@Override
 		public boolean doesXZShowFog(int x, int z) {
-			return true;
+			return false;
 		}
 
 		@Override
@@ -778,21 +776,7 @@ public class SkyDimensionDimension extends FrostPackElements.ModElement {
 			return (float) (d0 * 2.0D + d1) / 3.0F;
 		}
 	}
-	@SubscribeEvent
-	public void onPlayerChangedDimensionEvent(PlayerEvent.PlayerChangedDimensionEvent event) {
-		Entity entity = event.getPlayer();
-		World world = entity.world;
-		int x = (int) entity.posX;
-		int y = (int) entity.posY;
-		int z = (int) entity.posZ;
-		if (event.getTo() == type) {
-			{
-				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
-				$_dependencies.put("world", world);
-				SkyDimensionPlayerEntersDimensionProcedure.executeProcedure($_dependencies);
-			}
-		}
-	}
+
 	public static class ChunkProviderModded extends EndChunkGenerator {
 		private static final int SEALEVEL = 63;
 		public ChunkProviderModded(IWorld world, BiomeProvider provider) {
