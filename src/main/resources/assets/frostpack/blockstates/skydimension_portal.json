@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "frostpack:block/skydimension_portal_ew"
+    },
+    "axis=x": {
+      "model": "frostpack:block/skydimension_portal_ns"
+    }
+  }
+}

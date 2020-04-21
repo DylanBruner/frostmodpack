@@ -1,0 +1,24 @@
+{
+  "_fv": 6,
+  "_type": "fluid",
+  "definition": {
+    "name": "Vapor",
+    "textureStill": "cloud",
+    "textureFlowing": "vaportexture",
+    "luminosity": 5,
+    "density": -3,
+    "viscosity": 1000,
+    "isGas": false,
+    "type": "WATER",
+    "generateBucket": true,
+    "creativeTab": {
+      "value": "CUSTOM:ModTab"
+    },
+    "spawnWorldTypes": [
+      "Surface"
+    ],
+    "onEntityCollides": {
+      "name": "VaporMobplayerCollidesBlock"
+    }
+  }
+}

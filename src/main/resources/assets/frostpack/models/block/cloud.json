@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "frostpack:blocks/cloud",
+    "up": "frostpack:blocks/cloud",
+    "north": "frostpack:blocks/cloud",
+    "east": "frostpack:blocks/cloud",
+    "south": "frostpack:blocks/cloud",
+    "west": "frostpack:blocks/cloud",
+    "particle": "frostpack:blocks/cloud"
+  }
+}

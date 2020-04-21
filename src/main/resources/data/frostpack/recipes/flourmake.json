@@ -1,0 +1,16 @@
+{
+  "group": "frostpack",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "minecraft:water_bucket"
+    }
+  ],
+  "result": {
+    "item": "frostpack:flour",
+    "count": 3
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "group": "frostpack",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:milk_bucket"
+    },
+    "1": {
+      "item": "minecraft:milk_bucket"
+    },
+    "2": {
+      "item": "minecraft:milk_bucket"
+    }
+  },
+  "result": {
+    "item": "frostpack:cheese",
+    "count": 1
+  }
+}

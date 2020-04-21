@@ -1,0 +1,11 @@
+{
+  "_fv": 6,
+  "_type": "tab",
+  "definition": {
+    "name": "Frost Pack",
+    "icon": {
+      "value": "CUSTOM:Modcrafter"
+    },
+    "showSearch": true
+  }
+}

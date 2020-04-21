@@ -1,0 +1,11 @@
+{
+  "group": "frostpack",
+  "type": "minecraft:smelting",
+  "experience": 1,
+  "ingredient": {
+    "item": "frostpack:whitediamond"
+  },
+  "result": {
+    "item": "frostpack:whitediamonditem"
+  }
+}

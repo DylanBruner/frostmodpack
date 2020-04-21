@@ -1,0 +1,7 @@
+{
+  "_fv": 6,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><variables><variable type=\"Boolean\" id=\"modcrafteropen\">modcrafteropen</variable></variables><block type=\"event_trigger\" deletable=\"false\" x=\"40\" y=\"40\"><field name=\"trigger\">No additional trigger</field><next><block type=\"block_add\"><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.CRAFTING_TABLE</field></block></value><value name=\"x\"><block type=\"math_number\"><field name=\"NUM\">200</field></block></value><value name=\"y\"><block type=\"math_number\"><field name=\"NUM\">200</field></block></value><value name=\"z\"><block type=\"math_number\"><field name=\"NUM\">200</field></block></value><next><block type=\"variables_set_logic\"><field name=\"VAR\">local:modcrafteropen</field><value name=\"VAL\"><block type=\"logic_boolean\"><field name=\"BOOL\">TRUE</field></block></value><next><block type=\"block_simulate_right_click\"><value name=\"x\"><block type=\"math_number\"><field name=\"NUM\">200</field></block></value><value name=\"y\"><block type=\"math_number\"><field name=\"NUM\">200</field></block></value><value name=\"z\"><block type=\"math_number\"><field name=\"NUM\">200</field></block></value></block></next></block></next></block></next></block></xml>"
+  }
+}

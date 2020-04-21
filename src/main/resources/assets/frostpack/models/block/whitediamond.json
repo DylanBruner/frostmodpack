@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "frostpack:blocks/whitediamond",
+    "up": "frostpack:blocks/whitediamond",
+    "north": "frostpack:blocks/whitediamond",
+    "east": "frostpack:blocks/whitediamond",
+    "south": "frostpack:blocks/whitediamond",
+    "west": "frostpack:blocks/whitediamond",
+    "particle": "frostpack:blocks/whitediamond"
+  }
+}

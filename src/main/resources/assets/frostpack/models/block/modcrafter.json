@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "frostpack:blocks/modcraftingtable",
+    "up": "frostpack:blocks/modcraftingtable",
+    "north": "frostpack:blocks/modcraftingtable",
+    "east": "frostpack:blocks/modcraftingtable",
+    "south": "frostpack:blocks/modcraftingtable",
+    "west": "frostpack:blocks/modcraftingtable",
+    "particle": "frostpack:blocks/modcraftingtable"
+  }
+}

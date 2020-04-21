@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "frostpack:blocks/skydemensionmain2",
+    "up": "frostpack:blocks/skydemensionmain2",
+    "north": "frostpack:blocks/skydemensionmain2",
+    "east": "frostpack:blocks/skydemensionmain2",
+    "south": "frostpack:blocks/skydemensionmain2",
+    "west": "frostpack:blocks/skydemensionmain2",
+    "particle": "frostpack:blocks/skydemensionmain2"
+  }
+}

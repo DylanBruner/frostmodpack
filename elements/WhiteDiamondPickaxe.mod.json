@@ -1,0 +1,23 @@
+{
+  "_fv": 6,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "whitediamondpickaxe",
+    "customModelName": "Normal",
+    "name": "White Diamond Pickaxe",
+    "creativeTab": {
+      "value": "CUSTOM:ModTab"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 5,
+    "efficiency": 9.0,
+    "attackSpeed": 3.0,
+    "enchantability": 2,
+    "damageVsEntity": 4.0,
+    "usageCount": 500,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": []
+  }
+}
