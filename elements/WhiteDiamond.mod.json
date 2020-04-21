@@ -78,17 +78,18 @@
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],
     "spawnWorldTypes": [
-      "Surface"
+      "Surface",
+      "CUSTOM:SkyDimension"
     ],
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.REDSTONE_ORE"
+        "value": "Blocks.STONE#0"
       }
     ],
-    "frequencyPerChunks": 12,
+    "frequencyPerChunks": 3,
     "frequencyOnChunk": 5,
-    "minGenerateHeight": 3,
+    "minGenerateHeight": 25,
     "maxGenerateHeight": 50
   }
 }

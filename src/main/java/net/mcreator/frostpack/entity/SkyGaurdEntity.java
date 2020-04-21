@@ -134,7 +134,7 @@ public class SkyGaurdEntity extends FrostPackElements.ModElement {
 
 		@Override
 		public CreatureAttribute getCreatureAttribute() {
-			return CreatureAttribute.UNDEAD;
+			return CreatureAttribute.UNDEFINED;
 		}
 
 		protected void dropSpecialItems(DamageSource source, int looting, boolean recentlyHitIn) {

@@ -29,6 +29,7 @@ import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
+import net.mcreator.frostpack.world.dimension.SkyDimensionDimension;
 import net.mcreator.frostpack.itemgroup.ModTabItemGroup;
 import net.mcreator.frostpack.FrostPackElements;
 
@@ -84,16 +85,18 @@ public class WhiteDiamondBlock extends FrostPackElements.ModElement {
 					boolean dimensionCriteria = false;
 					if (dimensionType == DimensionType.OVERWORLD)
 						dimensionCriteria = true;
+					if (dimensionType == SkyDimensionDimension.type)
+						dimensionCriteria = true;
 					if (!dimensionCriteria)
 						return false;
 					return super.place(world, generator, rand, pos, config);
 				}
 			}, new OreFeatureConfig(OreFeatureConfig.FillerBlockType.create("whitediamond", "whitediamond", blockAt -> {
 				boolean blockCriteria = false;
-				if (blockAt.getBlock() == Blocks.REDSTONE_ORE.getDefaultState().getBlock())
+				if (blockAt.getBlock() == Blocks.STONE.getDefaultState().getBlock())
 					blockCriteria = true;
 				return blockCriteria;
-			}), block.getDefaultState(), 5), Placement.COUNT_RANGE, new CountRangeConfig(12, 3, 3, 50)));
+			}), block.getDefaultState(), 5), Placement.COUNT_RANGE, new CountRangeConfig(3, 25, 25, 50)));
 		}
 	}
 }
