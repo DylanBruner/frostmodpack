@@ -5,10 +5,13 @@ import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
+import net.minecraft.world.World;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
+import net.minecraft.entity.Entity;
 import net.minecraft.block.BlockState;
 
+import net.mcreator.frostpack.procedures.EnergyCellItemInHandTickProcedure;
 import net.mcreator.frostpack.itemgroup.ModTabItemGroup;
 import net.mcreator.frostpack.FrostPackElements;
 
@@ -17,7 +20,7 @@ public class EnergyCellItem extends FrostPackElements.ModElement {
 	@ObjectHolder("frostpack:energycell")
 	public static final Item block = null;
 	public EnergyCellItem(FrostPackElements instance) {
-		super(instance, 59);
+		super(instance, 7);
 	}
 
 	@Override
@@ -49,6 +52,19 @@ public class EnergyCellItem extends FrostPackElements.ModElement {
 		@OnlyIn(Dist.CLIENT)
 		public boolean hasEffect(ItemStack itemstack) {
 			return true;
+		}
+
+		@Override
+		public void inventoryTick(ItemStack itemstack, World world, Entity entity, int slot, boolean selected) {
+			super.inventoryTick(itemstack, world, entity, slot, selected);
+			int x = (int) entity.posX;
+			int y = (int) entity.posY;
+			int z = (int) entity.posZ;
+			if (selected) {
+				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				$_dependencies.put("entity", entity);
+				EnergyCellItemInHandTickProcedure.executeProcedure($_dependencies);
+			}
 		}
 	}
 }

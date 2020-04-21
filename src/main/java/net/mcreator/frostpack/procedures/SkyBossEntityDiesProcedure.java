@@ -10,7 +10,7 @@ import net.mcreator.frostpack.FrostPackElements;
 @FrostPackElements.ModElement.Tag
 public class SkyBossEntityDiesProcedure extends FrostPackElements.ModElement {
 	public SkyBossEntityDiesProcedure(FrostPackElements instance) {
-		super(instance, 40);
+		super(instance, 47);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

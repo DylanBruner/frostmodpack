@@ -33,6 +33,9 @@ import net.minecraft.enchantment.EnchantmentHelper;
 import net.minecraft.client.renderer.entity.SpriteRenderer;
 import net.minecraft.client.Minecraft;
 
+import net.mcreator.frostpack.procedures.WhiteDiamondSwordBulletHitsPlayerProcedure;
+import net.mcreator.frostpack.procedures.WhiteDiamondSwordBulletHitsLivingEntityProcedure;
+import net.mcreator.frostpack.procedures.WhiteDiamondSwordBulletHitsBlockProcedure;
 import net.mcreator.frostpack.itemgroup.ModTabItemGroup;
 import net.mcreator.frostpack.FrostPackElements;
 
@@ -43,7 +46,7 @@ public class WhiteDiamondSwordItem extends FrostPackElements.ModElement {
 	@ObjectHolder("frostpack:entitybulletwhitediamondsword")
 	public static final EntityType arrow = null;
 	public WhiteDiamondSwordItem(FrostPackElements instance) {
-		super(instance, 56);
+		super(instance, 21);
 	}
 
 	@Override
@@ -168,9 +171,30 @@ public class WhiteDiamondSwordItem extends FrostPackElements.ModElement {
 		}
 
 		@Override
+		public void onCollideWithPlayer(PlayerEntity entity) {
+			super.onCollideWithPlayer(entity);
+			int x = (int) this.posX;
+			int y = (int) this.posY;
+			int z = (int) this.posZ;
+			World world = this.world;
+			{
+				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				WhiteDiamondSwordBulletHitsPlayerProcedure.executeProcedure($_dependencies);
+			}
+		}
+
+		@Override
 		protected void arrowHit(LivingEntity entity) {
 			super.arrowHit(entity);
 			entity.setArrowCountInEntity(entity.getArrowCountInEntity() - 1);
+			int x = (int) this.posX;
+			int y = (int) this.posY;
+			int z = (int) this.posZ;
+			World world = this.world;
+			{
+				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				WhiteDiamondSwordBulletHitsLivingEntityProcedure.executeProcedure($_dependencies);
+			}
 		}
 
 		@Override
@@ -182,6 +206,10 @@ public class WhiteDiamondSwordItem extends FrostPackElements.ModElement {
 			World world = this.world;
 			Entity entity = this.getShooter();
 			if (this.inGround) {
+				{
+					java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+					WhiteDiamondSwordBulletHitsBlockProcedure.executeProcedure($_dependencies);
+				}
 				this.remove();
 			}
 		}

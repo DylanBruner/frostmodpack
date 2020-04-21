@@ -27,7 +27,7 @@ public class XrayBlockBlock extends FrostPackElements.ModElement {
 	@ObjectHolder("frostpack:xrayblock")
 	public static final Block block = null;
 	public XrayBlockBlock(FrostPackElements instance) {
-		super(instance, 52);
+		super(instance, 10);
 	}
 
 	@Override

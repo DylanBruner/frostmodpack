@@ -10,7 +10,7 @@ import net.mcreator.frostpack.FrostPackElements;
 @FrostPackElements.ModElement.Tag
 public class PatchNotesCommandExecutedProcedure extends FrostPackElements.ModElement {
 	public PatchNotesCommandExecutedProcedure(FrostPackElements instance) {
-		super(instance, 51);
+		super(instance, 58);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

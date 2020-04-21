@@ -8,7 +8,7 @@ import net.mcreator.frostpack.FrostPackElements;
 @FrostPackElements.ModElement.Tag
 public class SkyBossShotMobIsHitWithItemProcedure extends FrostPackElements.ModElement {
 	public SkyBossShotMobIsHitWithItemProcedure(FrostPackElements instance) {
-		super(instance, 46);
+		super(instance, 52);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

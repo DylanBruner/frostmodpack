@@ -49,7 +49,7 @@ public class VaporBlock extends FrostPackElements.ModElement {
 	private FlowingFluid still = null;
 	private ForgeFlowingFluid.Properties fluidproperties = null;
 	public VaporBlock(FrostPackElements instance) {
-		super(instance, 35);
+		super(instance, 11);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

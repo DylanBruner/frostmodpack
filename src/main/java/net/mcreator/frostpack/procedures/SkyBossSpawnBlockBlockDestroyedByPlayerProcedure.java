@@ -13,7 +13,7 @@ import net.mcreator.frostpack.FrostPackElements;
 @FrostPackElements.ModElement.Tag
 public class SkyBossSpawnBlockBlockDestroyedByPlayerProcedure extends FrostPackElements.ModElement {
 	public SkyBossSpawnBlockBlockDestroyedByPlayerProcedure(FrostPackElements instance) {
-		super(instance, 43);
+		super(instance, 50);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

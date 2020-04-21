@@ -8,18 +8,18 @@ import net.minecraft.entity.Entity;
 import net.mcreator.frostpack.FrostPackElements;
 
 @FrostPackElements.ModElement.Tag
-public class WhiteDiamondArmorLeggingsTickEventProcedure extends FrostPackElements.ModElement {
-	public WhiteDiamondArmorLeggingsTickEventProcedure(FrostPackElements instance) {
-		super(instance, 40);
+public class EnergyCellItemInHandTickProcedure extends FrostPackElements.ModElement {
+	public EnergyCellItemInHandTickProcedure(FrostPackElements instance) {
+		super(instance, 69);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
-			System.err.println("Failed to load dependency entity for procedure WhiteDiamondArmorLeggingsTickEvent!");
+			System.err.println("Failed to load dependency entity for procedure EnergyCellItemInHandTick!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		if (entity instanceof LivingEntity)
-			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.FIRE_RESISTANCE, (int) 1, (int) 3, (false), (false)));
+			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.NIGHT_VISION, (int) 3, (int) 1));
 	}
 }

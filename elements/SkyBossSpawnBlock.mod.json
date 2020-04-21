@@ -31,7 +31,7 @@
     "destroyTool": "axe",
     "affectedBySilkTouch": false,
     "customDrop": {
-      "value": ""
+      "value": "Blocks.AIR"
     },
     "dropAmount": 1,
     "isBeaconBase": false,

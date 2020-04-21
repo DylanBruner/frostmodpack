@@ -106,7 +106,7 @@ public class SkyDimensionDimension extends FrostPackElements.ModElement {
 	public static DimensionType type = null;
 	private static Biome[] dimensionBiomes;
 	public SkyDimensionDimension(FrostPackElements instance) {
-		super(instance, 34);
+		super(instance, 20);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}

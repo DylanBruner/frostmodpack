@@ -38,7 +38,7 @@ public class SkyBiomeBiome extends FrostPackElements.ModElement {
 	@ObjectHolder("frostpack:skybiome")
 	public static final CustomBiome biome = null;
 	public SkyBiomeBiome(FrostPackElements instance) {
-		super(instance, 37);
+		super(instance, 45);
 	}
 
 	@Override

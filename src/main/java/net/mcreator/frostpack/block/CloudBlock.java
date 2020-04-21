@@ -29,7 +29,7 @@ public class CloudBlock extends FrostPackElements.ModElement {
 	@ObjectHolder("frostpack:cloud")
 	public static final Block block = null;
 	public CloudBlock(FrostPackElements instance) {
-		super(instance, 31);
+		super(instance, 16);
 	}
 
 	@Override

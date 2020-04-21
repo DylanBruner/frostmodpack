@@ -9,7 +9,7 @@ import net.mcreator.frostpack.FrostPackElements;
 @FrostPackElements.ModElement.Tag
 public class SkyDimensionPlayerEntersDimensionProcedure extends FrostPackElements.ModElement {
 	public SkyDimensionPlayerEntersDimensionProcedure(FrostPackElements instance) {
-		super(instance, 41);
+		super(instance, 48);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

@@ -24,7 +24,7 @@ public class SkyPortalFrameBlock extends FrostPackElements.ModElement {
 	@ObjectHolder("frostpack:skyportalframe")
 	public static final Block block = null;
 	public SkyPortalFrameBlock(FrostPackElements instance) {
-		super(instance, 30);
+		super(instance, 14);
 	}
 
 	@Override

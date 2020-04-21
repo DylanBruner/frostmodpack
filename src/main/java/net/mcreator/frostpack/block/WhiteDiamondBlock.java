@@ -42,7 +42,7 @@ public class WhiteDiamondBlock extends FrostPackElements.ModElement {
 	@ObjectHolder("frostpack:whitediamond")
 	public static final Block block = null;
 	public WhiteDiamondBlock(FrostPackElements instance) {
-		super(instance, 21);
+		super(instance, 13);
 	}
 
 	@Override

@@ -42,7 +42,7 @@ public class SkyBossShotItem extends FrostPackElements.ModElement {
 	@ObjectHolder("frostpack:entitybulletskybossshot")
 	public static final EntityType arrow = null;
 	public SkyBossShotItem(FrostPackElements instance) {
-		super(instance, 47);
+		super(instance, 54);
 	}
 
 	@Override

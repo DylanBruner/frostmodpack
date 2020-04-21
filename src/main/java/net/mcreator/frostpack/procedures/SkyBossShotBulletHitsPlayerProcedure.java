@@ -10,7 +10,7 @@ import net.mcreator.frostpack.FrostPackElements;
 @FrostPackElements.ModElement.Tag
 public class SkyBossShotBulletHitsPlayerProcedure extends FrostPackElements.ModElement {
 	public SkyBossShotBulletHitsPlayerProcedure(FrostPackElements instance) {
-		super(instance, 47);
+		super(instance, 53);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

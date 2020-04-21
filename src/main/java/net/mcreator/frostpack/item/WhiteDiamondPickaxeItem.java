@@ -16,7 +16,7 @@ public class WhiteDiamondPickaxeItem extends FrostPackElements.ModElement {
 	@ObjectHolder("frostpack:whitediamondpickaxe")
 	public static final Item block = null;
 	public WhiteDiamondPickaxeItem(FrostPackElements instance) {
-		super(instance, 24);
+		super(instance, 19);
 	}
 
 	@Override

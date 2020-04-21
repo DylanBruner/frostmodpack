@@ -16,7 +16,7 @@ public class QuesadillaItem extends FrostPackElements.ModElement {
 	@ObjectHolder("frostpack:quesadilla")
 	public static final Item block = null;
 	public QuesadillaItem(FrostPackElements instance) {
-		super(instance, 19);
+		super(instance, 5);
 	}
 
 	@Override

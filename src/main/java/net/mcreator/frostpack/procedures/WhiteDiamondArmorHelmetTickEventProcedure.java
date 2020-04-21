@@ -10,7 +10,7 @@ import net.mcreator.frostpack.FrostPackElements;
 @FrostPackElements.ModElement.Tag
 public class WhiteDiamondArmorHelmetTickEventProcedure extends FrostPackElements.ModElement {
 	public WhiteDiamondArmorHelmetTickEventProcedure(FrostPackElements instance) {
-		super(instance, 29);
+		super(instance, 42);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

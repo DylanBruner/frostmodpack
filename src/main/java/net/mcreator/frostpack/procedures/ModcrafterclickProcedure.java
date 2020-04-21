@@ -15,7 +15,7 @@ import net.mcreator.frostpack.FrostPackElements;
 @FrostPackElements.ModElement.Tag
 public class ModcrafterclickProcedure extends FrostPackElements.ModElement {
 	public ModcrafterclickProcedure(FrostPackElements instance) {
-		super(instance, 13);
+		super(instance, 31);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

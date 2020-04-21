@@ -30,6 +30,15 @@
       "value": "CUSTOM:WhiteDiamondSwordAmmo"
     },
     "bulletModel": "Default",
-    "customBulletModelTexture": ""
+    "customBulletModelTexture": "",
+    "onBulletHitsBlock": {
+      "name": "WhiteDiamondSwordBulletHitsBlock"
+    },
+    "onBulletHitsPlayer": {
+      "name": "WhiteDiamondSwordBulletHitsPlayer"
+    },
+    "onBulletHitsEntity": {
+      "name": "WhiteDiamondSwordBulletHitsLivingEntity"
+    }
   }
 }

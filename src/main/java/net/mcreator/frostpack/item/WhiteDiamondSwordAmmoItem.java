@@ -14,7 +14,7 @@ public class WhiteDiamondSwordAmmoItem extends FrostPackElements.ModElement {
 	@ObjectHolder("frostpack:whitediamondswordammo")
 	public static final Item block = null;
 	public WhiteDiamondSwordAmmoItem(FrostPackElements instance) {
-		super(instance, 58);
+		super(instance, 63);
 	}
 
 	@Override

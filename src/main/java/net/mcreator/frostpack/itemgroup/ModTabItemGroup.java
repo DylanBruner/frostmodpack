@@ -13,7 +13,7 @@ import net.mcreator.frostpack.FrostPackElements;
 @FrostPackElements.ModElement.Tag
 public class ModTabItemGroup extends FrostPackElements.ModElement {
 	public ModTabItemGroup(FrostPackElements instance) {
-		super(instance, 12);
+		super(instance, 30);
 	}
 
 	@Override

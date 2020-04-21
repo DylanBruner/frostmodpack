@@ -21,7 +21,7 @@ import com.mojang.brigadier.arguments.StringArgumentType;
 @FrostPackElements.ModElement.Tag
 public class PatchNotesCommand extends FrostPackElements.ModElement {
 	public PatchNotesCommand(FrostPackElements instance) {
-		super(instance, 51);
+		super(instance, 59);
 	}
 
 	@Override

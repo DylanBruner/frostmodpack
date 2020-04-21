@@ -35,7 +35,7 @@ public class WhiteDiamondArmorItem extends FrostPackElements.ModElement {
 	@ObjectHolder("frostpack:whitediamondarmorboots")
 	public static final Item boots = null;
 	public WhiteDiamondArmorItem(FrostPackElements instance) {
-		super(instance, 27);
+		super(instance, 18);
 	}
 
 	@Override

@@ -23,7 +23,7 @@ public class SkyDemensionMainblock2Block extends FrostPackElements.ModElement {
 	@ObjectHolder("frostpack:skydemensionmainblock2")
 	public static final Block block = null;
 	public SkyDemensionMainblock2Block(FrostPackElements instance) {
-		super(instance, 34);
+		super(instance, 17);
 	}
 
 	@Override

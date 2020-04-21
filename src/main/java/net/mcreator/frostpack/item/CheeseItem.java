@@ -15,7 +15,7 @@ public class CheeseItem extends FrostPackElements.ModElement {
 	@ObjectHolder("frostpack:cheese")
 	public static final Item block = null;
 	public CheeseItem(FrostPackElements instance) {
-		super(instance, 17);
+		super(instance, 4);
 	}
 
 	@Override

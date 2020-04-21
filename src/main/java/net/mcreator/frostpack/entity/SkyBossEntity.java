@@ -57,7 +57,7 @@ public class SkyBossEntity extends FrostPackElements.ModElement {
 	@ObjectHolder("frostpack:entitybulletskyboss")
 	public static final EntityType arrow = null;
 	public SkyBossEntity(FrostPackElements instance) {
-		super(instance, 40);
+		super(instance, 9);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

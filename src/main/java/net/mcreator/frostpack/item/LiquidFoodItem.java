@@ -18,7 +18,7 @@ public class LiquidFoodItem extends FrostPackElements.ModElement {
 	@ObjectHolder("frostpack:liquidfood")
 	public static final Item block = null;
 	public LiquidFoodItem(FrostPackElements instance) {
-		super(instance, 54);
+		super(instance, 6);
 	}
 
 	@Override

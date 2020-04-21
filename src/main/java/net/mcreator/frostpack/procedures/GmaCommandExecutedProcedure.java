@@ -9,7 +9,7 @@ import net.mcreator.frostpack.FrostPackElements;
 @FrostPackElements.ModElement.Tag
 public class GmaCommandExecutedProcedure extends FrostPackElements.ModElement {
 	public GmaCommandExecutedProcedure(FrostPackElements instance) {
-		super(instance, 8);
+		super(instance, 26);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

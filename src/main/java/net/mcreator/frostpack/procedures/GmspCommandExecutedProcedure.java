@@ -9,7 +9,7 @@ import net.mcreator.frostpack.FrostPackElements;
 @FrostPackElements.ModElement.Tag
 public class GmspCommandExecutedProcedure extends FrostPackElements.ModElement {
 	public GmspCommandExecutedProcedure(FrostPackElements instance) {
-		super(instance, 10);
+		super(instance, 28);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

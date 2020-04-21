@@ -21,7 +21,7 @@ import com.mojang.brigadier.arguments.StringArgumentType;
 @FrostPackElements.ModElement.Tag
 public class GmspCommand extends FrostPackElements.ModElement {
 	public GmspCommand(FrostPackElements instance) {
-		super(instance, 11);
+		super(instance, 29);
 	}
 
 	@Override

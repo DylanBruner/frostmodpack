@@ -61,7 +61,7 @@ public class SkyGaurdEntity extends FrostPackElements.ModElement {
 	@ObjectHolder("frostpack:entitybulletskygaurd")
 	public static final EntityType arrow = null;
 	public SkyGaurdEntity(FrostPackElements instance) {
-		super(instance, 38);
+		super(instance, 8);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 
