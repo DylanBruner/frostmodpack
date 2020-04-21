@@ -1,0 +1,24 @@
+{
+  "group": "frostpack",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:golden_apple"
+    },
+    "1": {
+      "item": "frostpack:cloud"
+    },
+    "2": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "result": {
+    "item": "frostpack:liquidfood",
+    "count": 1
+  }
+}

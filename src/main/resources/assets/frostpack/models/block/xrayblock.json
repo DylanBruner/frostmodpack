@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "frostpack:blocks/cloud",
+    "top": "frostpack:blocks/cloud",
+    "side": "frostpack:blocks/cloud"
+  }
+}

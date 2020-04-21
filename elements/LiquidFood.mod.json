@@ -1,0 +1,21 @@
+{
+  "_fv": 6,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "liquidfood",
+    "customModelName": "Normal",
+    "name": "Liquid Food",
+    "creativeTab": {
+      "value": "CUSTOM:ModTab"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 5,
+    "saturation": 5.0,
+    "eatingSpeed": 100,
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "drink",
+    "hasGlow": true
+  }
+}

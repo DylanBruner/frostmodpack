@@ -1,0 +1,24 @@
+{
+  "group": "frostpack",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "frostpack:whitediamonditem"
+    },
+    "1": {
+      "item": "frostpack:whitediamonditem"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "frostpack:whitediamondsword",
+    "count": 1
+  }
+}

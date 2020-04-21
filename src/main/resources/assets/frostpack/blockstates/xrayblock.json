@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "frostpack:block/xrayblock"
+    },
+    "type=top": {
+      "model": "frostpack:block/xrayblock_top"
+    },
+    "type=double": {
+      "model": "frostpack:block/xrayblock_full"
+    }
+  }
+}

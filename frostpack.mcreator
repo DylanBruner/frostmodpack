@@ -648,6 +648,54 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "XrayBlock",
+      "type": "block",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "XrayBlockMake",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "LiquidFood",
+      "type": "food",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "LiquidFoodMake",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "WhiteDiamondSword",
+      "type": "gun",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "WhiteDiamondSwordMake",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [
@@ -667,13 +715,16 @@
       "item.frostpack.quesadilla": "Quesadilla",
       "item.frostpack.vapor_bucket": "Vapor Bucket",
       "block.frostpack.whitediamond": "White Diamond Ore",
+      "block.frostpack.xrayblock": "Xray Block",
       "item.frostpack.whitediamondarmorlegs": "White Diamond Armor Leggings",
       "item.frostpack.flour": "Flour",
       "item.frostpack.whitediamondarmorbody": "White Diamond Armor Body",
       "item.frostpack.skygaurd": "Sky Gaurd Spawn Egg",
+      "item.frostpack.whitediamondsword": "White Diamond Sword",
       "itemGroup.tabmodtab": "Frost Pack",
       "block.frostpack.skybossspawnblock": "Sky Boss Spawn Block",
       "item.frostpack.whitediamondarmorboots": "White Diamond Armor Boots",
+      "item.frostpack.liquidfood": "Liquid Food",
       "item.frostpack.skyboss": "Sky Dragon Spawn Egg",
       "item.frostpack.whitediamondarmorhelmet": "White Diamond Armor Helmet",
       "block.frostpack.modcrafter": "Mod crafter",
