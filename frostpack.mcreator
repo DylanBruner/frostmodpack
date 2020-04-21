@@ -405,34 +405,72 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "SkyBossEntityDies",
+      "type": "procedure",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SkyBoss",
+      "type": "mob",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.frostpack.modcrafter": "Mod crafter",
-      "item.frostpack.whitediamondarmorhelmet": "White Diamond Armor Helmet",
       "biome.frostpack.skybiome": "Sky Biome",
       "item.frostpack.skydimension": "Sky Dimension Portal Igniter",
       "block.frostpack.cloud": "Cloud",
       "item.frostpack.quesadilla": "Quesadilla",
       "item.frostpack.vapor_bucket": "Vapor Bucket",
-      "item.frostpack.tortilla": "Tortilla",
       "block.frostpack.whitediamond": "White Diamond Ore",
-      "item.frostpack.whitediamondpickaxe": "White Diamond Pickaxe",
       "item.frostpack.whitediamondarmorlegs": "White Diamond Armor Leggings",
-      "block.frostpack.skydemensionmainblock2": "Sky Demension Mainblock2",
       "item.frostpack.flour": "Flour",
       "item.frostpack.whitediamondarmorbody": "White Diamond Armor Body",
       "item.frostpack.skygaurd": "Sky Gaurd Spawn Egg",
+      "itemGroup.tabmodtab": "Frost Pack",
+      "item.frostpack.whitediamondarmorboots": "White Diamond Armor Boots",
+      "item.frostpack.skyboss": "Sky Dragon Spawn Egg",
+      "item.frostpack.whitediamondarmorhelmet": "White Diamond Armor Helmet",
+      "block.frostpack.modcrafter": "Mod crafter",
+      "item.frostpack.tortilla": "Tortilla",
+      "item.frostpack.whitediamondpickaxe": "White Diamond Pickaxe",
+      "block.frostpack.skydemensionmainblock2": "Sky Demension Mainblock2",
       "fluid.vapor": "Vapor",
       "item.frostpack.cheese": "Cheese",
-      "itemGroup.tabmodtab": "Frost Pack",
       "item.frostpack.whitediamonditem": "White Diamond",
-      "item.frostpack.whitediamondarmorboots": "White Diamond Armor Boots",
       "entity.frostpack.skygaurd": "Sky Gaurd",
-      "block.frostpack.skyportalframe": "Sky Portal Frame"
+      "block.frostpack.skyportalframe": "Sky Portal Frame",
+      "entity.frostpack.skyboss": "Sky Dragon"
     }
   },
   "workspaceSettings": {
