@@ -18,7 +18,6 @@ import net.minecraft.util.ActionResultType;
 import net.minecraft.util.ActionResult;
 import net.minecraft.network.IPacket;
 import net.minecraft.item.UseAction;
-import net.minecraft.item.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.entity.projectile.AbstractArrowEntity;
@@ -64,7 +63,7 @@ public class WhiteDiamondSwordItem extends FrostPackElements.ModElement {
 	}
 	public static class ItemRanged extends Item {
 		public ItemRanged() {
-			super(new Item.Properties().group(ModTabItemGroup.tab).maxDamage(1));
+			super(new Item.Properties().group(ModTabItemGroup.tab).maxDamage(1000));
 			setRegistryName("whitediamondsword");
 		}
 
@@ -85,14 +84,13 @@ public class WhiteDiamondSwordItem extends FrostPackElements.ModElement {
 		}
 
 		@Override
-		public void onUsingTick(ItemStack itemstack, LivingEntity entityLiving, int count) {
-			World world = entityLiving.world;
+		public void onPlayerStoppedUsing(ItemStack itemstack, World world, LivingEntity entityLiving, int timeLeft) {
 			if (!world.isRemote && entityLiving instanceof ServerPlayerEntity) {
 				ServerPlayerEntity entity = (ServerPlayerEntity) entityLiving;
 				int slotID = -1;
 				for (int i = 0; i < entity.inventory.mainInventory.size(); i++) {
 					ItemStack stack = entity.inventory.mainInventory.get(i);
-					if (stack != null && stack.getItem() == new ItemStack(Items.SNOWBALL, (int) (1)).getItem()) {
+					if (stack != null && stack.getItem() == new ItemStack(EnergyCellItem.block, (int) (1)).getItem()) {
 						slotID = i;
 						break;
 					}
@@ -116,7 +114,7 @@ public class WhiteDiamondSwordItem extends FrostPackElements.ModElement {
 						entityarrow.pickupStatus = AbstractArrowEntity.PickupStatus.CREATIVE_ONLY;
 					} else {
 						ItemStack stack = entity.inventory.getStackInSlot(slotID);
-						if (new ItemStack(Items.SNOWBALL, (int) (1)).isDamageable()) {
+						if (new ItemStack(EnergyCellItem.block, (int) (1)).isDamageable()) {
 							if (stack.attemptDamageItem(1, random, entity)) {
 								stack.shrink(1);
 								stack.setDamage(0);
@@ -131,7 +129,6 @@ public class WhiteDiamondSwordItem extends FrostPackElements.ModElement {
 					}
 					world.addEntity(entityarrow);
 				}
-				entity.stopActiveHand();
 			}
 		}
 	}
@@ -162,12 +159,12 @@ public class WhiteDiamondSwordItem extends FrostPackElements.ModElement {
 		@Override
 		@OnlyIn(Dist.CLIENT)
 		public ItemStack getItem() {
-			return new ItemStack(Items.SNOWBALL, (int) (1));
+			return new ItemStack(WhiteDiamondSwordAmmoItem.block, (int) (1));
 		}
 
 		@Override
 		protected ItemStack getArrowStack() {
-			return new ItemStack(Items.SNOWBALL, (int) (1));
+			return new ItemStack(EnergyCellItem.block, (int) (1));
 		}
 
 		@Override

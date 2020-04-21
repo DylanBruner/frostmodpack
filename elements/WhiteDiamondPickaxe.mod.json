@@ -17,7 +17,7 @@
     "damageVsEntity": 4.0,
     "usageCount": 500,
     "blocksAffected": [],
-    "hasGlow": true,
+    "hasGlow": false,
     "repairItems": []
   }
 }

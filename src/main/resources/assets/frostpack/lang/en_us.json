@@ -3,6 +3,7 @@
   "item.frostpack.skydimension": "Sky Dimension Portal Igniter",
   "block.frostpack.cloud": "Cloud",
   "item.frostpack.quesadilla": "Quesadilla",
+  "item.frostpack.whitediamondswordammo": "White Diamond Sword Ammo",
   "item.frostpack.vapor_bucket": "Vapor Bucket",
   "block.frostpack.whitediamond": "White Diamond Ore",
   "block.frostpack.xrayblock": "Xray Block",
@@ -26,6 +27,7 @@
   "item.frostpack.cheese": "Cheese",
   "item.frostpack.whitediamonditem": "White Diamond",
   "entity.frostpack.skygaurd": "Sky Gaurd",
+  "item.frostpack.energycell": "Energy Cell",
   "block.frostpack.skyportalframe": "Sky Portal Frame",
   "entity.frostpack.skyboss": "Sky Dragon"
 }

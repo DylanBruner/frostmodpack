@@ -696,6 +696,38 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "WhiteDiamondSwordAmmo",
+      "type": "item",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EnergyCell",
+      "type": "item",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EnergyCellMake",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EnergyCellMake1x",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [
@@ -713,6 +745,7 @@
       "item.frostpack.skydimension": "Sky Dimension Portal Igniter",
       "block.frostpack.cloud": "Cloud",
       "item.frostpack.quesadilla": "Quesadilla",
+      "item.frostpack.whitediamondswordammo": "White Diamond Sword Ammo",
       "item.frostpack.vapor_bucket": "Vapor Bucket",
       "block.frostpack.whitediamond": "White Diamond Ore",
       "block.frostpack.xrayblock": "Xray Block",
@@ -736,6 +769,7 @@
       "item.frostpack.cheese": "Cheese",
       "item.frostpack.whitediamonditem": "White Diamond",
       "entity.frostpack.skygaurd": "Sky Gaurd",
+      "item.frostpack.energycell": "Energy Cell",
       "block.frostpack.skyportalframe": "Sky Portal Frame",
       "entity.frostpack.skyboss": "Sky Dragon"
     }

@@ -33,7 +33,7 @@ public class LiquidFoodItem extends FrostPackElements.ModElement {
 
 		@Override
 		public int getUseDuration(ItemStack stack) {
-			return 100;
+			return 12;
 		}
 
 		@Override

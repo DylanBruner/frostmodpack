@@ -2,12 +2,9 @@
 package net.mcreator.frostpack.item;
 
 import net.minecraftforge.registries.ObjectHolder;
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.PickaxeItem;
-import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 
@@ -49,11 +46,6 @@ public class WhiteDiamondPickaxeItem extends FrostPackElements.ModElement {
 				return Ingredient.EMPTY;
 			}
 		}, 1, -1f, new Item.Properties().group(ModTabItemGroup.tab)) {
-			@Override
-			@OnlyIn(Dist.CLIENT)
-			public boolean hasEffect(ItemStack itemstack) {
-				return true;
-			}
 		}.setRegistryName("whitediamondpickaxe"));
 	}
 }

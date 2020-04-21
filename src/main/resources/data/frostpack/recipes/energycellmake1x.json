@@ -1,0 +1,20 @@
+{
+  "group": "frostpack",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:bucket"
+    },
+    "1": {
+      "item": "frostpack:whitediamonditem"
+    }
+  },
+  "result": {
+    "item": "frostpack:energycell",
+    "count": 1
+  }
+}

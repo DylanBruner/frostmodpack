@@ -12,7 +12,7 @@
     "stackSize": 64,
     "nutritionalValue": 5,
     "saturation": 5.0,
-    "eatingSpeed": 100,
+    "eatingSpeed": 12,
     "forDogs": false,
     "isAlwaysEdible": false,
     "animation": "drink",
